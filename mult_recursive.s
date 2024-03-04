@@ -17,7 +17,7 @@ main:
     addi a0, x0, 10
     ecall
 
- mult:
+mult:
     # base case
     # compare a1 with 1, if the two are equal you exit the mult function
     addi t0, x0, 1  # Create temporary variable of 1
@@ -38,5 +38,5 @@ main:
     addi sp, sp 8
     jr ra
 
- exit_base_case:
+exit_base_case:
     jr ra
