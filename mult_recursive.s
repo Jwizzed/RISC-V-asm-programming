@@ -34,7 +34,6 @@ main:
     mv t1, a0  # move an answer to t1
     lw a0, 0(sp)  # load the original a before call to mult
     add a0, a0, t1  # answer
-
     lw ra, 4(sp)  # load ra back
     addi sp, sp 8
     jr ra
